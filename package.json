@@ -16,7 +16,6 @@
     "watch": "rimraf ./dist && rollup -c -w",
     "example": "babel-node ./examples/index.js",
     "prepublish": "npm run build",
-    "precommit": "git add . && lint-staged",
     "lint": "eslint performance src",
     "test": "jest --config .jestrc",
     "test:size": "bundlesize"
